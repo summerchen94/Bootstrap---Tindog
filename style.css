@@ -1,0 +1,49 @@
+body {
+  font-family: Montserrat !important;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+#title .navbar-brand {
+  font-family: 800 2.5rem Ubuntu;
+}
+
+.description {
+  font: 800 3rem/1.5 Montserrat;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.row .features-box {
+  padding: 5% 5%;
+}
+
+.features-box i {
+  color: #f08071;
+  /* font-size: 30px; */
+  margin-bottom: 30px;
+}
+
+.features-box i:hover {
+  color: #ff4c68;
+}
+
+.features-box h3 {
+  font-weight: 800;
+}
+
+.features-box p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
