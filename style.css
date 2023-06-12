@@ -1,38 +1,82 @@
-body {
-  font-family: Montserrat !important;
+h1 {
+  font: 800 3.5rem/1.5 Montserrat;
 }
+
+h2 {
+  font: 700 3rem/1.5 Montserrat;
+  font-weight: bolder;
+}
+
+h3 {
+  font: 700 1.5rem Montserrat;
+}
+
+p {
+  font: 400 1rem Montserrat;
+  color: #8f8f8f;
+}
+
+/* Title Section */
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  font-family: Montserrat;
 }
 
 #title .container-fluid {
   padding: 3% 15%;
 }
 
-#title .navbar-brand {
-  font-family: 800 2.5rem Ubuntu;
+#title .navbar {
+  padding: 0 0 4.5rem;
 }
 
-.description {
-  font: 800 3rem/1.5 Montserrat;
+#title .navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#title .nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#title h1 {
+  font: 800 3.5rem/1.5 Montserrat;
+  padding-top: 2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 15%;
 }
 
 /* Features Section */
 
 #features {
   padding: 7% 15%;
+  font-family: Montserrat;
 }
 
 .row .features-box {
-  padding: 5% 5%;
+  padding: 5%;
 }
 
 .features-box i {
-  color: #f08071;
-  /* font-size: 30px; */
-  margin-bottom: 30px;
+  color: #fe8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .features-box i:hover {
@@ -40,10 +84,69 @@ body {
 }
 
 .features-box h3 {
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .features-box p {
   color: #8f8f8f;
   font-size: 1rem;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #fe8172;
+  color: #fff;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font: 700 3rem/1.5 Montserrat;
+  font-weight: bolder;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.carousel-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #fe8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+#pricing h2 {
+  font: 700 3rem/1.5 Montserrat;
+}
+
+#pricing h3 {
+  font: 700 1.5rem Montserrat;
+}
+
+.pricing-title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.row .pricing-card {
+  padding: 3% 2%;
+  text-align: center;
 }
