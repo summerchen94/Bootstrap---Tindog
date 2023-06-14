@@ -25,11 +25,11 @@ p {
 }
 
 #title .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 4rem;
 }
 
 #title .navbar-brand {
@@ -43,7 +43,7 @@ p {
 }
 
 #title .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
@@ -54,12 +54,14 @@ p {
 
 .download-btn {
   margin: 5% 3% 5% 0;
+  font-size: ;
 }
 
 .title-img {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
-  margin-left: 15%;
+  margin-left: 3%;
+  position: absolute;
 }
 
 /* Features Section */
@@ -67,6 +69,8 @@ p {
 #features {
   padding: 7% 15%;
   font-family: Montserrat;
+  background-color: #fff;
+  position: relative;
 }
 
 .row .features-box {
@@ -149,4 +153,39 @@ p {
 .row .pricing-card {
   padding: 3% 2%;
   text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h2 {
+  font: 700 3.5rem/1.5 Montserrat;
+  color: #fff;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer i {
+  margin: 20px 10px;
 }
